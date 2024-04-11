@@ -1,0 +1,99 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+.italic{
+    font-style: italic;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    text-align: center;
+}
+
+
+.hero{
+    height: 450px;
+    color: #F1FAEE;
+    background-image: url('https://www.tripsavvy.com/thmb/61PI7mnXve3Q62-XnUe8x-3Y4cc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-166815386-3421ad5bc2e948eea121c1b5824cb792.jpg');
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+#title{
+    margin: 0 auto 15px auto;
+    border-radius: 10px;
+    padding: 8px 15px 12px 15px;
+    background: #5D6A8F;
+}
+#subtitle{
+    margin: 15px auto 0 auto;
+    border-radius: 10px;
+    padding: 8px 15px 12px 15px;
+    background: #1D243C;
+}
+
+.mid-sec {
+    height: 300px;
+    padding: 10px;
+    background-color: #e8dad0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.column{
+    width: 25%;
+}
+
+.circle{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.end{
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border-bottom: 8px solid #C4B2A4;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #785C45;
+    color: white;
+    display: flex;
+}
+
+#avatar{
+    height:250px;
+    border-radius: 10px;
+}
+
+.card-detl{
+    width: 200px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
